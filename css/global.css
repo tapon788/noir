@@ -1,0 +1,229 @@
+@font-face {
+    font-family: opensans;
+    src: url(../fonts/opensans/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: opensans-light;
+    src: url(../fonts/opensans/OpenSans-Light.ttf);
+}
+
+@font-face {
+    font-family: opensans-bold;
+    src: url(../fonts/opensans/OpenSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: oswald-light;
+    src: url(../fonts/oswald/Oswald-Light.ttf);
+}
+
+@font-face {
+    font-family: oswald-bold;
+    src: url(../fonts/oswald/Oswald-Bold.ttf);
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.hgt {
+    height: 100%;
+}
+
+.fullscreen {
+    position: relative;
+    min-height: 100%;
+    height: 100%;
+    background-color: #dedede;
+    z-index: 500;
+}
+
+body> .fullscreen {
+    height: auto;
+}
+
+.no-gutter > [class*='col-'] {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-align: center;
+    font-family: opensans-bold;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.title-container {
+    min-height: 20px;
+    padding: 5px 15px 5px 15px;
+    margin: 15px 5px 15px 5px;
+    /*
+    border:1px solid #000;
+*/
+}
+
+.title-container> h1 {
+    margin: 10px 0 10px 0;
+    color: #444;
+}
+
+.section-title {
+    margin: 5%;
+    color: #444;
+}
+
+.section-title-on-black {
+    color: #dedede;
+}
+
+p,
+li,
+a {
+    font-family: opensans;
+    font-size: 14px;
+}
+
+nav{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    background-color: #000!important;
+    border-radius: 0px!important;
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5 ease-in;
+}
+
+.navbar-default {
+    background: transparent;
+    border: transparent;
+    padding-top: 17px;
+    background-color: #000;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #dedede;
+    font-size: 14px;
+    text-transform: uppercase;
+    background-color: #000;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #ff5555;
+    font-size: 14px;
+    text-transform: uppercase;
+    background-color: #000;
+}
+
+.navbar-brand {
+    font-size: 25px;
+    font-family: oswald-bold;
+    color: #dedede;
+    margin-left: 10px !important;
+}
+
+.navbar-default .navbar-brand {
+    color: #dedede;
+}
+
+.navbar-nav {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.visible-xs-block> li {
+    position: relative;
+    display: block;
+    float: left;
+}
+.social-links> li > a {
+    margin-top: -5px;
+}
+
+.boundary {
+    background-color: wheat;
+}
+
+.boundary2 {
+    background-color: lightskyblue;
+}
+
+.boundary3 {
+    background-color: lightcoral;
+}
+
+.only-small {
+    visibility: hidden;
+}
+
+.pull-me-up {
+    margin-top: 75px;
+}
+
+.push-me-down {
+    margin-top: 150px;
+}
+
+.pull-2-up {
+    margin-top: 0px;
+}
+
+.push-2-down {
+    margin-top: 225px;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #dedede;
+    background: #000;
+    transition: 1s;
+}
+
+.navbar-default .navbar-nav > .active > .sliding-middle-out {
+	width: 100%;
+	background: #dedede;
+    color: #dedede;
+}
+
+
+.affix:before{
+    content: '';
+    top: -10%;
+    transform: translateY(-30%;)
+}
+
+.affix {
+    top: 0;
+    width: 100%;
+/*    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5 ease-in;*/
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 0.5s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 0.5;
+}
+
+.affix + .container-fluid {
+    padding-top: 50px;
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    from {top: -85px;}
+    to {top: 85px;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    from {top: -85px;}
+    to {top: 0px;}
+}

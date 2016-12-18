@@ -1,0 +1,996 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Test</title>
+        <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="owl-carousel/owl.theme.css">
+
+    <script src="js/jquery_3.1.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/triangle_adjust.js"></script>
+    <script src="owl-carousel/owl.carousel.js"></script>
+</head>
+
+<body onresize="triangleAdjust()">
+
+
+    <!---------- SECTION-HEADER-START ---------->
+
+    <div id="header" class="fullscreen">
+        <div class="navbar-container" >
+           
+           
+            <nav class="navbar navbar-default affix-top" data-spy="affix" data-offset-top="50">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">NOI<span style="color:#f44;">R</span></a>
+
+                        <ul class="nav navbar-nav navbar-right visible-xs-block">
+                            <li>
+                                <a href="#">
+                                    <span class="social"><i class="fa fa-facebook"></i></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="social"><i class="fa fa-twitter"></i></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="social"><i class="fa fa-linkedin"></i></span>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="myNavbar">
+
+
+
+                        <ul class="nav navbar-nav navbar-right hidden-xs visible-md-block visible-lg-block social-links">
+                            <li>
+                                <a href="#">
+                                    <span class="social"><i class="fa fa-facebook"></i></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="social"><i class="fa fa-twitter"></i></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="social"><i class="fa fa-linkedin"></i></span>
+                                </a>
+                            </li>
+
+                        </ul>
+
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="sliding-middle-out"><a href="#header">home</a></li>
+                            <li class="sliding-middle-out"><a href="#post-header">products</a></li>
+                            <li class="sliding-middle-out"><a href="#services">services</a></li>
+                            <li class="sliding-middle-out"><a href="#portfolio">portfolio</a></li>
+                            <li class="sliding-middle-out"><a href="#team">team</a></li>
+                            <li class="sliding-middle-out"><a href="#pricing">pricing</a></li>
+                            <li class="sliding-middle-out"><a href="#contact">contact</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </nav>
+            
+            
+            
+       
+        </div>
+
+        <div class="header-body">
+            <div class="header-title">
+                <span>noi</span><span style="color:#f44;">r</span>
+                <p>CREATIVE PORTFOLIO</p>
+            </div>
+
+            <div class="header-slider-text-container">
+                <div id="owl-example" class="owl-carousel">
+
+                    <div class="header-slider-text text-center">
+                        <h1>Web Design</h1>
+                        <h4>Grapnics and front-end design</h4>
+                        <button type="button" class="btn btn-red">sign up</button>
+                        <button type="button" class="btn btn-ash">log in</button>
+                    </div>
+                    <div class="header-slider-text text-center">
+                        <h1>web development</h1>
+                        <h4>wordpress, dhrupal, e-commerce</h4>
+                        <button type="button" class="btn btn-red">sign up</button>
+                        <button type="button" class="btn btn-ash">log in</button>
+                    </div>
+                    <div class="header-slider-text text-center">
+                        <h1>app development</h1>
+                        <h4>Android, ios app development</h4>
+                        <button type="button" class="btn btn-red">sign up</button>
+                        <button type="button" class="btn btn-ash">log in</button>
+                    </div>
+                    <div class="header-slider-text text-center">
+                        <h1>system programming</h1>
+                        <h4>c# .net, python development</h4>
+                        <button type="button" class="btn btn-red">sign up</button>
+                        <button type="button" class="btn btn-ash">log in</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---------- SECTION-HEADER-END ---------->
+
+
+
+    <!---------- SECTION-POST-HEADER-START ---------->
+
+    <div id="post-header">
+
+        <div id="down-arrow-full" class="post-header-top">
+            <div class="triangle-down-full">
+                <div style="opacity:0.5;">
+                </div>
+            </div>
+        </div>
+
+        <div id="up-arrow-full" class="post-header-center">
+            <div class="triangle-up-full">
+                <div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="post-header-bottom">
+        </div>
+
+        <div class="products-top-box">
+            <h1>Products</h1>
+            <p class="products-btn-text">We bring your product to the next level</p>
+            <p class="products-top-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+
+    </div>
+
+    <!--------- SECTION-POST-HEADER-END ----------->
+
+
+
+    <!--------- SECTION-PRODUCTS-START ----------->
+
+    <section id="products">
+        <div class="container hgt">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="products-box">
+                        <div class="products-icon-box">
+                            <i class="fa fa-adjust"></i>
+                        </div>
+                        <h3>
+                            latest experience
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+
+                        <div id="down-arrow" class="triangle-container">
+                            <div class="triangle-down">
+                                <div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="products-box">
+                        <div class="products-icon-box">
+                            <i class="fa fa-car"></i>
+                        </div>
+                        <h3>
+                            next-level design
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+
+                        <div id="down-arrow" class="triangle-container">
+                            <div class="triangle-down">
+                                <div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="products-box">
+                        <div class="products-icon-box">
+                            <i class="fa fa-mobile"></i>
+                        </div>
+                        <h3>
+                            responsive design
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+
+                        <div id="down-arrow" class="triangle-container">
+                            <div class="triangle-down">
+                                <div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="products-box">
+                        <div class="products-icon-box">
+                            <i class="fa fa-anchor"></i>
+                        </div>
+                        <h3>
+                            cms integration
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+
+                        <div id="down-arrow" class="triangle-container">
+                            <div class="triangle-down">
+                                <div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="products-footer hidden-xs hidden-sm"></div>
+        <div class="products-footer-overlay hidden-xs hidden-sm"></div>
+    </section>
+
+    <!----------- SECTION-PRODUCTS-END -------------->
+
+
+
+    <!--------- SECTION-SERVICES-START----------->
+
+    <section id="services">
+
+        <div class="container">
+            <div class="row">
+               
+                <h1 class="section-title">services</h1>
+
+                <div class="col-md-12">
+                    <div class="services-text-container">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row no-gutter">
+                <div class="col-md-3">
+                    <div class="services-box">
+                        <div class="services-icon-box">
+                            <i class="fa fa-adjust"></i>
+                        </div>
+                        <h3>
+                            branding
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+
+                        <div id="down-arrow" class="triangle-container">
+                            <div class="triangle-down">
+                                <div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="services-box">
+                        <div class="services-icon-box">
+                            <i class="fa fa-car"></i>
+                        </div>
+                        <h3>
+                            ui/ux design
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+
+                        <div id="down-arrow" class="triangle-container">
+                            <div class="triangle-down">
+                                <div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="services-box">
+                        <div class="services-icon-box">
+                            <i class="fa fa-mobile"></i>
+                        </div>
+                        <h3>
+                            app design
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+
+                        <div id="down-arrow" class="triangle-container">
+                            <div class="triangle-down">
+                                <div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="services-box">
+                        <div class="services-icon-box">
+                            <i class="fa fa-anchor"></i>
+                        </div>
+                        <h3>
+                            web design
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+
+                        <div id="down-arrow" class="triangle-container">
+                            <div class="triangle-down">
+                                <div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div id="down-arrow-full" class="post-header-top">
+            <div class="triangle-down-full">
+                <div style="opacity:0.5;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--------- SECTION-SERVICES-ENDS----------->
+
+
+
+    <!----------SECTION-PORTFOLIO-START---------->
+    
+
+    <section id="portfolio">
+
+
+        <div id="up-arrow-full" class="portfolio-center">
+            <div class="triangle-up-full">
+                <div>
+                </div>
+            </div>
+
+        </div>
+
+              <div class="portfolio-bottom">
+        </div>
+
+        <div class="portfolio-top-box">
+            <h1 class="section-title">portfolio</h1>
+        </div>
+            <div class="portfolio-comb-container">
+             <div class="combrow0 only-small"  style="margin-top:-75px;">
+                <div class="combox boundary"></div>
+            </div>
+            
+            
+            
+            <div class="combrow1 push-me-down">
+                <div class="combox boundary except-small">11</div>
+                <div class="combox boundary2"></div>
+                <div class="combox boundary3"></div>
+                <div class="combox boundary except-small">22</div>
+
+
+            </div>
+            <div class="clearfix"></div>
+            <div class="combrow2 pull-me-up">
+                <div class="combox boundary except-xs">1</div>
+                <div class="combox boundary2"></div>
+                <div class="combox boundary3"></div>
+                <div class="combox boundary"></div>
+                <div class="combox boundary2 except-xs">2</div>
+
+            </div>
+            <div class="combrow3 visible-xs-block pull-2-up">
+                <div class="combox boundary">1</div>
+
+                <div class="combox boundary2">2</div>
+
+            </div>
+            <div class="combrow4 only-small" style="margin-top:225px;">
+                <div class="combox boundary">4</div>
+
+            </div>
+            </div>
+    </section>
+
+
+    <!----------SECTION-PORTFOLIO-END---------->
+
+
+
+    <!---------------- CLIENTS START ---------------->
+
+    <section id="clients">
+
+        <div class="container">
+  
+
+                    <h1 class="section-title-on-black">our great clients</h1>
+
+     
+
+            <div class="row client-row">
+                <div class="col-md-3 client-box-container">
+                    <div class="client-box">
+                        <img src="images/citilink-837863_640.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-3 client-box-container">
+                    <div class="client-box">
+                        <img src="images/linux-151619_640.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-3 client-box-container">
+                    <div class="client-box">
+                        <img src="images/text-editor-27620_640.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-3 client-box-container">
+                    <div class="client-box">
+                        <img src="images/happy-easter-779690_640.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="row client-row">
+                <div class="col-md-3 client-box-container">
+                    <div class="client-box">
+                        <img src="images/legend-738006_640.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-3 client-box-container">
+                    <div class="client-box">
+                        <img src="images/graffiti-681940_640.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-3 client-box-container">
+                    <div class="client-box">
+                        <img src="images/design-751452_640.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-3 client-box-container">
+                    <div class="client-box">
+                        <img src="images/software-779776_640.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-----------SECTION-CLIENTS-ENDS------------->
+
+
+
+    <!----------SECTION-TEAM-START---------->
+    <!--class="fullscreen hidden-xs hidden-sm"-->
+
+    <section id="team">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+
+                    <h1 class="section-title">our team</h1>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="team-text-container">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+                    </p>
+                </div>
+            </div>
+            <div class="team-comb-container">
+            
+            <div class="combrow0 only-small">
+                <div class="combox boundary"></div>
+            </div>
+            
+            
+            
+            <div class="combrow1 pull-me-up">
+                <div class="combox boundary except-small">11</div>
+                <div class="combox boundary2"></div>
+                <div class="combox boundary3"></div>
+                <div class="combox boundary except-small">22</div>
+
+
+            </div>
+            <div class="clearfix"></div>
+            <div class="combrow2 push-me-down">
+                <div class="combox boundary except-xs">1</div>
+                <div class="combox boundary2"></div>
+                <div class="combox boundary3"></div>
+                <div class="combox boundary"></div>
+                <div class="combox boundary2 except-xs">2</div>
+
+            </div>
+            <div class="combrow3 visible-xs-block push-2-down">
+                <div class="combox boundary">1</div>
+
+                <div class="combox boundary2">2</div>
+
+            </div>
+            <div class="combrow4 only-small">
+                <div class="combox boundary">4</div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="team_title1">
+                        <h3>jacob wright</h3>
+                        <h4>web designer</h4>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="team-social-icon-container">
+                        
+                        <ul class="text-center">
+                            <li>
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-google-plus"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-pinterest"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </section>
+
+    <!----------SECTION-TEAM-END---------->
+
+
+
+    <div id="post-header">
+
+        <div id="down-arrow-full" class="post-header-top">
+            <div class="triangle-down-full">
+                <div style="opacity:0.5;">
+                </div>
+            </div>
+        </div>
+
+        <div id="up-arrow-full" class="post-header-center">
+            <div class="triangle-up-full">
+                <div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="post-header-bottom">
+        </div>
+
+        <div class="pricing-top-box">
+            <h1>Pricing</h1>
+            <p class="products-btn-text">We offer the best ever price</p>
+            <p class="pricing-top-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+
+    </div>
+
+
+
+    <section id="pricing">
+        <div class="container hgt">
+
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="pricing-box">
+                        <div class="pricing-icon-box">
+                            <h2>personal</h2>
+                            <h1>17</h1>
+                            <p class="text-center">billed annually or $19 month-to-month</p>
+                        </div>
+                        <h3>
+                            experience
+                        </h3>
+                        <ul>
+                            <li>
+                                Revise Pack
+                            </li>
+
+                            <li>
+                                Designing UI/UX
+                            </li>
+
+                            <li>
+                                Revise Pack
+                            </li>
+
+                            <li>
+                                Designing UI/UX
+                            </li>
+                        </ul>
+                        <button type="button" class="btn btn-black center-block">sign up</button>
+
+                        <div id="down-arrow" class="triangle-container">
+                            <div class="triangle-down">
+                                <div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="pricing-box">
+                        <div class="pricing-icon-box">
+                            <h2>team</h2>
+                            <h1>69</h1>
+                            <p class="text-center">billed annually or $19 month-to-month</p>
+                        </div>
+                        <h3>
+                            experience
+                        </h3>
+                        <ul>
+                            <li>
+                                Revise Pack
+                            </li>
+
+                            <li>
+                                Designing UI/UX
+                            </li>
+
+                            <li>
+                                Revise Pack
+                            </li>
+
+                            <li>
+                                Designing UI/UX
+                            </li>
+                        </ul>
+                        <button type="button" class="btn btn-black center-block">sign up</button>
+
+                        <div id="down-arrow" class="triangle-container">
+                            <div class="triangle-down">
+                                <div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="pricing-box">
+                        <div class="pricing-icon-box">
+                            <h2>company</h2>
+                            <h1>349</h1>
+                            <p class="text-center">billed annually or $19 month-to-month</p>
+                        </div>
+                        <h3>
+                            experience
+                        </h3>
+                        <ul>
+                            <li>
+                                Revise Pack
+                            </li>
+
+                            <li>
+                                Designing UI/UX
+                            </li>
+
+                            <li>
+                                Revise Pack
+                            </li>
+
+                            <li>
+                                Designing UI/UX
+                            </li>
+                        </ul>
+                        <button type="button" class="btn btn-black center-block">sign up</button>
+
+                        <div id="down-arrow" class="triangle-container">
+                            <div class="triangle-down">
+                                <div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="pricing-box">
+                        <div class="pricing-icon-box">
+                            <h2>enterprise</h2>
+                            <h1>999</h1>
+                            <p class="text-center">billed annually or $19 month-to-month</p>
+                        </div>
+                        <h3>
+                            experience
+                        </h3>
+                        <ul>
+                            <li>
+                                Revise Pack
+                            </li>
+
+                            <li>
+                                Designing UI/UX
+                            </li>
+
+                            <li>
+                                Revise Pack
+                            </li>
+
+                            <li>
+                                Designing UI/UX
+                            </li>
+                        </ul>
+                        <button type="button" class="btn btn-black center-block">sign up</button>
+
+
+                        <div id="down-arrow" class="triangle-container">
+                            <div class="triangle-down">
+                                <div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pricing-footer hidden-xs hidden-sm"></div>
+        <div class="pricing-footer-overlay hidden-xs hidden-sm"></div>
+    </section>
+
+
+    <!----------SECTION-TESTIMONIAL-START--------->
+
+
+    <section id="testimonial">
+
+        <div class="container">
+            <div class="row no-gutter">
+                <div class="col-md-12">
+                    <div class="title-container">
+                        <h1>Testimonial</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row no-gutter">
+                <div class="testimonial-row">
+                    <div class="col-md-10">
+                        <div class="testimonial-text-container">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                            <h6>tapon Paul, desclaimer at <span style="color:#ff5555;">&nbsp;themeport</span></h6>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="testtimonial-image-container">
+                            <img src="images/passport-size-icon.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+    <!----------SECTION-TESTIMONIAL-END---------->
+
+
+
+    <!-----------SECTION-CONTACT START----------->
+
+    
+
+    <section id="contact">
+
+        <div class="container ">
+           <h1 class="section-title-on-black">contact</h1>
+<!--            <div class="row no-gutter">
+                <div class="col-md-12">
+                    <div class="title-container">
+                        
+                    </div>
+                </div>
+            </div>-->
+            <div class="row no-gutter">
+                <div class="col-md-1"></div>
+                <div class="col-md-5">
+                    <div class="contact-left">
+                        <div class="contact-left-top">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                            <p>
+                                Steve and Max
+                            </p>
+                            <p>Themeshifters</p>
+                        </div>
+                        <div class="contact-left-middle">
+                            <h5>lets socialize!</h5>
+                            <ul>
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                                <li><a href="#"><i class="fa fa-dropbox"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="contact-left-footer">
+                            <p>1207, SekherTake, Mohammadpur, Dhaka, +8801926662249
+                                <span style="color:#ff5555;">taponpaul.com</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-1"></div>
+
+                <div class="col-md-4" style="height:80%">
+                    <div class="contact-right">
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="&#xf0e0;&nbsp;&nbsp;&nbsp; Enter email">
+                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="&#xf084;&nbsp;&nbsp;&nbsp;Password">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleTextarea">Example textarea</label>
+                                <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-default contact-right-submit-btn">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!------------SECTION-CONTACT END----------->
+
+
+
+
+
+    <script type="text/javascript">
+        triangleAdjust();
+        $(document).ready(function () {
+            $("#owl-example").owlCarousel({
+                items: 1,
+                itemsCustom: false,
+                itemsDesktop: [1199, 1],
+                itemsDesktopSmall: [980, 1],
+                itemsTablet: [768, 1],
+                itemsTabletSmall: false,
+                itemsMobile: [479, 1],
+                singleItem: false,
+                itemsScaleUp: false,
+                autoPlay: true,
+                stopOnHover: true,
+                pagination: false,
+            });
+
+        });
+        
+       
+$(document).ready(function(){
+  // Add scrollspy to <body>
+  $('body').scrollspy({target: ".navbar", offset: 0});   
+
+  // Add smooth scrolling on all links inside the navbar
+  $("#myNavbar a").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    }  // End if
+  });
+});
+
+        
+    </script>
+</body>
+
+</html>
